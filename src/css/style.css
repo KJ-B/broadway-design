@@ -1,15 +1,18 @@
 body{
   font-family: "Helvetica", sans-serif;
   text-align: center;
+  background-image: no tile;
 }
 
-.banner{
-  background-image: url("images/flatiron-building.png");
+.banner{background-image: url("images/flatiron-building.png");
+}
+
+a, h1, h4 {
+  color: white;
 }
 
 h1 {
   font-size: 70px;
-  color: white;
   font-weight: bold;
 }
 
@@ -25,12 +28,11 @@ h3 {
 
 h4 {
   font-size: 18px;
-  color: white;
-  font-weight: bold;
+  font-weight: normal;
 }
 
 h5 {
-  font-size: 11px;
+  font-size: 14px;
   color: white;
   background-color: dimgray;
 }
