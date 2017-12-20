@@ -4,10 +4,20 @@ body{
   background-image: no tile;
 }
 
-.banner{background-image: url("images/flatiron-building.png");
+.banner {
+  background-image: url("images/flatiron-building.png");
 }
 
 .nav, h1, h4 {
+  color: white;
+}
+
+.soon.banner {
+  color: white;
+}
+
+h3.soon {
+  background-image: url("images/flatiron-building.png");
   color: white;
 }
 
